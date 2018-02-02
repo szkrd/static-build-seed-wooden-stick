@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.mito.hu/wizzair/trip-planner-search-box-proto.git"
+    "url": "https://github.com/szkrd/static-build-seed-wooden-stick.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Szabolcs Kurdi",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "1.14.11",
