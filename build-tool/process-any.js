@@ -48,8 +48,6 @@ function processAny (source, options) {
         outputStats.other++
         return fse.ensureFile(target)
           .then(() => fse.copy(source, target, {preserveTimestamps: true}))
-          .then(() => fsStat(source))
-          .then(sourceStats => fsUtimes(target, sourceStats.atime, sourceStats.mtime)) // copy mtimes
       })
 
   }
