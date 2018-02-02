@@ -1,0 +1,27 @@
+{
+  "name": "static-build-seed-wooden-stick",
+  "version": "0.0.1",
+  "description": "Static builder without gulp or webpack for projects requiring the complexity of a wooden stick.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ext js,ejs,html,css,less,jpg,png,svg --watch src index.js",
+    "much-watch": "nodemon --ext js,ejs,html,css,less,jpg,png,svg --watch src index.js force",
+    "build": "node . build",
+    "serve": "serve ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.mito.hu/wizzair/trip-planner-search-box-proto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "1.14.11",
+    "serve": "6.4.9",
+    "ejs": "2.5.7",
+    "fs-extra": "5.0.0",
+    "less": "2.7.3",
+    "recursive-readdir": "2.2.1"
+  }
+}

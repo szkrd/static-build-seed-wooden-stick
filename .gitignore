@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.tmp
+*.zip
+*.new
+npm-debug.log
+bin
+node_modules
+dist
+.mtimes.json
